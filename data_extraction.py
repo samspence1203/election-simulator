@@ -57,6 +57,7 @@ def process_text_file(file_path):
 
 
 # Function to retrieve IDs from table where needed
+# noinspection SqlResolve
 def get_id_from_table(session, table_name, column_name, value):
     """
     This function retrieves the ID from a given table where the column matches the specified value.
@@ -72,11 +73,11 @@ def get_id_from_table(session, table_name, column_name, value):
 
 
 # Function to map party names
-def map_party_to_id(party_name):
+def map_abbreviated_to_full(party_name):
     """
     This function maps party names to their corresponding IDs.
-    :param party_name: The name of the party.
-    :return: The ID of the party.
+    :param party_name: The abbreviated name of the party.
+    :return: The full name of the party.
     """
     party_mapping = {
         'Con': 'Conservatives',
@@ -144,8 +145,8 @@ def insert_constituency_results(df, db_connection):
     try:
         for index, row in df.iterrows():
             constituency_id = get_id_from_table(session, 'constituency', 'Constituency', row['constituency'])
-            first_party_id = get_id_from_table(session, 'party', 'Party', map_party_to_id(row['first_party']))
-            second_party_id = get_id_from_table(session, 'party', 'Party', map_party_to_id(row['second_party']))
+            first_party_id = get_id_from_table(session, 'party', 'Party', map_abbreviated_to_full(row['first_party']))
+            second_party_id = get_id_from_table(session, 'party', 'Party', map_abbreviated_to_full(row['second_party']))
 
             # Convert majority percentage to remove percentage sign and remove commas from majority
             majority = row['majority'].replace(',', '')
