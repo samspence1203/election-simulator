@@ -1,7 +1,7 @@
 import pandas as pd
 from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
-
+import re
 
 # Function to process each line of the text file and extract the required data
 def process_line(line):
@@ -184,9 +184,120 @@ def insert_constituency_results(df, db_connection):
         session.close()
 
 
+def insert_region_results(file_path, election_year, db_connection_string):
+    """
+    Reads region results from a text file and inserts them into the regionresult table.
+    :param file_path: Path to the text file containing the region data.
+    :param election_year: Year of the election (e.g., 2019).
+    :param db_connection_string: Connection string for the database.
+    """
+    engine = create_engine(db_connection_string)
+
+    # Map text file party names to database party names
+    party_name_map = {
+        "CON": "Conservatives",
+        "LAB": "Labour",
+        "LD": "Liberal Democrats",
+        "Green": "Greens",
+        "Brexit": "Reform",
+        "Other": "Other"
+    }
+
+    try:
+        with engine.connect() as connection:
+            # Begin a transaction
+            transaction = connection.begin()
+
+            try:
+                # Step 1: Fetch the ElectionID for the given year
+                election_query = text("SELECT ID FROM Election WHERE Year = :year")
+                election_result = connection.execute(election_query, {"year": election_year}).fetchone()
+                if not election_result:
+                    raise ValueError(f"Election for year {election_year} not found in the database.")
+                election_id = election_result[0]  # Access the first column (ID)
+
+                # Step 2: Parse the file and process each region
+                with open(file_path, 'r') as file:
+                    current_region = None
+                    for line in file:
+                        line = line.strip()
+
+                        if not line:  # Skip blank lines
+                            current_region = None
+                            continue
+
+                        if current_region is None:
+                            # Assume a non-blank line without votes is a region name
+                            region_query = text("SELECT ID FROM Region WHERE Name = :name")
+                            region_result = connection.execute(region_query, {"name": line}).fetchone()
+                            if not region_result:
+                                print(f"Warning: Region '{line}' not found in the database. Skipping region.")
+                                continue
+                            current_region = {"name": line, "id": region_result[0]}
+                            continue
+
+                        # Validate and parse party vote data
+                        match = re.match(r"(\w+)\s([\d,]+)\s([\d.]+)%", line)
+                        if not match:
+                            print(f"Warning: Invalid vote line format: {line}. Skipping.")
+                            continue
+
+                        party_short_name, votes, percentage = match.groups()
+
+                        # Convert votes to an integer
+                        votes = int(votes.replace(",", ""))
+
+                        # Convert percentage to a float
+                        percentage = float(percentage)
+
+                        # Map party short name to database party name
+                        party_name = party_name_map.get(party_short_name)
+                        if not party_name:
+                            print(f"Warning: Party '{party_short_name}' not recognized. Skipping.")
+                            continue
+
+                        # Fetch the PartyID
+                        party_query = text("SELECT ID FROM Party WHERE Party = :name")
+                        party_result = connection.execute(party_query, {"name": party_name}).fetchone()
+                        if not party_result:
+                            print(f"Warning: Party '{party_name}' not found in the database. Skipping.")
+                            continue
+                        party_id = party_result[0]
+
+                        # Insert the region result
+                        insert_query = text("""
+                            INSERT INTO RegionResult (ElectionID, PartyID, RegionID, RegionVote, RegionVotePercentage)
+                            VALUES (:election_id, :party_id, :region_id, :votes, :percentage)
+                        """)
+                        connection.execute(insert_query, {
+                            "election_id": election_id,
+                            "party_id": party_id,
+                            "region_id": current_region["id"],
+                            "votes": votes,
+                            "percentage": percentage
+                        })
+                        print(f"Inserted: {current_region['name']} - {party_name} ({votes}, {percentage}%)")
+
+                # Commit the transaction
+                transaction.commit()
+
+            except Exception as e:
+                # Rollback the transaction in case of an error
+                transaction.rollback()
+                print(f"Error: {e}")
+
+    except Exception as e:
+        print(f"Database Connection Error: {e}")
+
+
+
+
 # Main code
+
 df_2019 = process_text_file('2019.txt')
 db_connection_string = 'mysql+pymysql://root:SamSpence@127.0.0.1:3306/election_simulator'
 insert_constituencies(df_2019, db_connection_string)
 insert_constituency_results(df_2019, db_connection_string)
+
+insert_region_results('2019_regions.txt', 2019, db_connection_string)
 
