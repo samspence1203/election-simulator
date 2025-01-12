@@ -1,3 +1,5 @@
+import random
+
 class Campaign:
     def __init__(self, election_year):
         self.election_year = election_year
@@ -34,7 +36,7 @@ class Campaign:
         # Total days = 30
 
     def start_campaign(self):
-        # Initialize campaign with basic data
+        # Initialise campaign with basic data
         print(f"Campaign for {self.election_year} started.")
         # Additional logic for starting the campaign (e.g., setting up the calendar)
 
@@ -55,14 +57,21 @@ class Campaign:
         Trigger events based on the current stage of the campaign.
         """
         if stage == "Planning":
-            # Example: Setup initial campaign events
             self.public_opinion += 1  # Increase public opinion slightly during planning
-            print("Planning events: Campaign strategy development.")
+            print("Planning: Strategy development.")
+
         elif stage == "Event":
-            # Example: Major event, such as a rally
-            self.public_opinion += 5  # Events increase public opinion
-            self.funds -= 2000  # Events can cost money
-            print("Event: Major rally held!")
+            self.public_opinion += random.randint(2, 5)  # Event boosts public opinion
+            self.funds -= random.randint(1000, 5000)  # Event costs money
+            event = random.choice(["Rally", "Debate", "Press Conference"])
+            print(f"Event: {event} held!")
+            if event == "Rally":
+                self.public_opinion += 5  # Rallies increase public opinion more
+            elif event == "Debate":
+                self.public_opinion += 3  # Debates increase public opinion slightly
+            elif event == "Press Conference":
+                self.funds -= 1000  # Press conference costs some money
+
         elif stage == "Last-Minute":
             # Example: Last-minute campaigning
             self.public_opinion += 10  # Big push towards election
@@ -98,8 +107,10 @@ class Statistics:
         self.party_members = 0
         self.public_opinion = 50
 
-    def update_funds(self, amount):
-        self.funds += amount
-
-    def update_public_opinion(self, percentage_change):
-        self.public_opinion += percentage_change
+    def update_from_campaign(self, campaign):
+        """
+        Update statistics from the Campaign object.
+        Sync funds and public opinion from the to the statistics class.
+        """
+        self.funds = campaign.funds
+        self.public_opinion = campaign.public_opinion
