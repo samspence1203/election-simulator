@@ -3,6 +3,39 @@ from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker
 import re
 
+
+def run_sql_file(file_path, db_connection_string):
+    """
+    Execute the SQL commands in a file and commit the changes.
+    :param file_path: Path to the .sql file.
+    :param db_connection_string: Connection string for the database.
+    """
+    engine = create_engine(db_connection_string)
+
+    try:
+        with engine.connect() as connection:
+            # Read the SQL file
+            with open(file_path, 'r') as file:
+                sql_script = file.read()  # Read the entire SQL script
+                statements = sql_script.split(';')  # Split by semicolons
+
+                for statement in statements:
+                    if statement.strip():  # Skip empty statements
+                        try:
+                            # Execute each SQL statement
+                            connection.execute(text(statement))
+                            print(f"Executed: {statement.strip()[:50]}...")  # Print first 50 chars for debugging
+                        except Exception as e:
+                            print(f"Error executing statement: {statement.strip()[:50]}...")
+                            print(f"Error details: {e}")
+
+            # Commit the transaction after all SQL statements have been executed
+            connection.commit()
+            print(f"Successfully executed {file_path}")
+    except Exception as e:
+        print(f"Error executing {file_path}: {e}")
+
+
 # Function to process each line of the text file and extract the required data
 def process_line(line):
     """
@@ -290,14 +323,110 @@ def insert_region_results(file_path, election_year, db_connection_string):
         print(f"Database Connection Error: {e}")
 
 
+def insert_donations(file_path, election_year, db_connection_string):
+    """
+    Reads donations data from a text file and inserts it into the donations table.
+    :param file_path: Path to the text file containing the donations data.
+    :param election_year: Year of the election (e.g., 2019).
+    :param db_connection_string: Connection string for the database.
+    """
+    engine = create_engine(db_connection_string)
+
+    try:
+        with engine.connect() as connection:
+            # Begin a transaction
+            transaction = connection.begin()
+
+            try:
+                # Step 1: Fetch the ElectionID for the given year
+                election_query = text("SELECT ID FROM Election WHERE Year = :year")
+                election_result = connection.execute(election_query, {"year": election_year}).fetchone()
+                if not election_result:
+                    raise ValueError(f"Election for year {election_year} not found in the database.")
+                election_id = election_result[0]
+
+                # Step 2: Parse the file and process each party's donations
+                with open(file_path, 'r') as file:
+                    for line in file:
+                        line = line.strip()
+
+                        # Skip header or empty lines
+                        if not line or line.startswith("PartyName"):
+                            continue
+
+                        # Regex to handle party names with spaces and capture the data fields
+                        match = re.match(r"(.+?)\s([\d,]+)\s([\d,]+)\s([\d,]+)\s([\d,]+)\s([\d,]+)\s(\d+)\s([\d.]+)%", line)
+                        if not match:
+                            print(f"Warning: Invalid line format: {line}. Skipping.")
+                            continue
+
+                        # Extract the matched groups
+                        party_name, individual, company, trade_union, other, total_value, total_number, percentage_share = match.groups()
+
+                        # Convert numeric values and percentage
+                        try:
+                            individual = int(individual.replace(",", ""))
+                            company = int(company.replace(",", ""))
+                            trade_union = int(trade_union.replace(",", ""))
+                            other = int(other.replace(",", ""))
+                            total_value = int(total_value.replace(",", ""))
+                            total_number = int(total_number)
+                            percentage_share = float(percentage_share)
+                        except ValueError:
+                            print(f"Warning: Invalid numeric data in line: {line}. Skipping.")
+                            continue
+
+
+                        # Fetch the PartyID
+                        party_query = text("SELECT ID FROM Party WHERE Party = :name")
+                        party_result = connection.execute(party_query, {"name": party_name}).fetchone()
+                        if not party_result:
+                            print(f"Warning: Party '{party_name}' not found in the database. Skipping.")
+                            continue
+                        party_id = party_result[0]
+
+                        # Insert the donation data
+                        insert_query = text("""
+                            INSERT INTO Donation (ElectionID, PartyID, Individual, Company, TradeUnion, Other, TotalValue, TotalNum, SharePercentage)
+                            VALUES (:election_id, :party_id, :individual, :company, :trade_union, :other, :total_value, :total_number, :percentage_share)
+                        """)
+                        connection.execute(insert_query, {
+                            "election_id": election_id,
+                            "party_id": party_id,
+                            "individual": individual,
+                            "company": company,
+                            "trade_union": trade_union,
+                            "other": other,
+                            "total_value": total_value,
+                            "total_number": total_number,
+                            "percentage_share": percentage_share
+                        })
+                        print(f"Inserted: {party_name} ({total_value} total donations, {percentage_share}%)")
+
+                # Commit the transaction
+                transaction.commit()
+
+            except Exception as e:
+                # Rollback the transaction in case of an error
+                transaction.rollback()
+                print(f"Error: {e}")
+
+    except Exception as e:
+        print(f"Database Connection Error: {e}")
+
 
 
 # Main code
 
-df_2019 = process_text_file('2019.txt')
+df_2019 = process_text_file('2019_constituencies.txt')
 db_connection_string = 'mysql+pymysql://root:SamSpence@127.0.0.1:3306/election_simulator'
+
+run_sql_file('sql_scripts/create_tables.sql', db_connection_string)
+run_sql_file('sql_scripts/insert.sql', db_connection_string)
+
 insert_constituencies(df_2019, db_connection_string)
 insert_constituency_results(df_2019, db_connection_string)
 
 insert_region_results('2019_regions.txt', 2019, db_connection_string)
 
+insert_donations('2019_donations.txt', 2019, db_connection_string)

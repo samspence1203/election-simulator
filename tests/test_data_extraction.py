@@ -1,4 +1,4 @@
-from constituency_data_extraction import process_line, map_abbreviated_to_full
+from data_extraction import process_line, map_abbreviated_to_full
 
 
 def test_process_line() -> None:
