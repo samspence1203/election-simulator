@@ -1,0 +1,650 @@
+Aberavon Lab Con 10,490 33.2% Stephen Kinnock No
+Aberconwy Con Lab 2,034 6.4% Robin Millar Yes
+Aberdeen North SNP Con 12,670 33.9% Kirsty Blackman No
+Aberdeen South SNP Con 3,990 8.7% Stephen Flynn Yes
+Airdrie and Shotts SNP Lab 5,201 13.1% Neil Gray No
+Aldershot Con Lab 16,698 34.8% Leo Docherty No
+Aldridge-Brownhills Con Lab 19,836 50.4% Wendy Morton No
+Altrincham and Sale West Con Lab 6,139 11.2% Graham Brady No
+Alyn and Deeside Lab Con 213 0.5% Mark Tami No
+Amber Valley Con Lab 16,886 37.1% Nigel Mills No
+Angus SNP Con 3,795 8.8% Dave Doogan Yes
+Arfon PC Lab 2,781 9.6% Hywel Williams No
+Argyll and Bute SNP Con 4,110 8.6% Brendan O'Hara No
+Arundel and South Downs Con LD 22,521 36.7% Andrew Griffith Yes
+Ashfield Con AI 5,733 11.7% Lee Anderson Yes
+Ashford Con Lab 24,029 40.0% Damian Green No
+Ashton-Under-Lyne Lab Con 4,263 11.1% Angela Rayner No
+Aylesbury Con Lab 17,373 28.7% Rob Butler Yes
+Ayr, Carrick and Cumnock SNP Con 2,329 5.0% Allan Dorans Yes
+Banbury Con Lab 16,813 26.7% Victoria Prentis No
+Banff and Buchan Con SNP 4,118 9.7% David Duguid No
+Barking Lab Con 15,427 34.7% Margaret Hodge No
+Barnsley Central Lab Brexit 3,571 9.7% Daniel Jarvis No
+Barnsley East Lab Brexit 3,217 8.5% Stephanie Peacock No
+Barrow and Furness Con Lab 5,789 12.6% Simon Fell Yes
+Basildon and Billericay Con Lab 20,412 46.3% John Baron No
+Basingstoke Con Lab 14,198 25.9% Maria Miller No
+Bassetlaw Con Lab 14,013 27.6% Brendan Clarke-Smith Yes
+Bath LD Con 12,322 23.6% Wera Hobhouse No
+Batley and Spen Lab Con 3,525 6.7% Tracy Brabin No
+Battersea Lab Con 5,668 9.5% Marsha De Cordova No
+Beaconsfield Con Ind 15,712 27.2% Joy Morrissey Yes
+Beckenham Con Lab 14,258 28.2% Bob Stewart No
+Bedford Lab Con 145 0.3% Mohammad Yasin No
+Belfast East DUP Alliance 1,819 4.3% Gavin Robinson No
+Belfast North SF DUP 1,943 4.0% John Finucane Yes
+Belfast South SDLP DUP 15,401 32.5% Claire Hanna Yes
+Belfast West SF PBPA 14,672 37.8% Paul Maskey No
+Bermondsey and Old Southwark Lab LD 16,126 27.5% Neil Coyle No
+Berwickshire, Roxburgh and Selkirk Con SNP 5,148 9.7% John Lamont No
+Berwick-Upon-Tweed Con Lab 14,835 35.2% Anne-Marie Trevelyan No
+Bethnal Green and Bow Lab Con 37,524 62.0% Rushanara Ali No
+Beverley and Holderness Con Lab 20,448 38.2% Graham Stuart No
+Bexhill and Battle Con Lab 26,059 44.1% Huw Merriman No
+Bexleyheath and Crayford Con Lab 13,103 30.3% David Evennett No
+Birkenhead Lab BSJP 17,705 41.8% Mick Whitley Yes
+Birmingham, Edgbaston Lab Con 5,614 13.3% Preet Kaur Gill No
+Birmingham, Erdington Lab Con 3,601 10.2% Jack Dromey No
+Birmingham, Hall Green Lab Con 28,508 53.9% Tahir Ali Yes
+Birmingham, Hodge Hill Lab Con 28,655 63.7% Liam Byrne No
+Birmingham, Ladywood Lab Con 28,582 67.9% Shabana Mahmood No
+Birmingham, Northfield Con Lab 1,640 3.8% Gary Sambrook Yes
+Birmingham, Perry Barr Lab Con 15,317 36.3% Khalid Mahmood No
+Birmingham, Selly Oak Lab Con 12,414 25.1% Stephen McCabe No
+Birmingham, Yardley Lab Con 10,659 25.0% Jess Phillips No
+Bishop Auckland Con Lab 7,962 17.8% Dehenna Davison Yes
+Blackburn Lab Con 18,304 40.9% Kate Hollern No
+Blackley and Broughton Lab Con 14,402 37.3% Graham Stringer No
+Blackpool North and Cleveleys Con Lab 8,596 22.2% Paul Maynard No
+Blackpool South Con Lab 3,690 11.3% Scott Benton Yes
+Blaenau Gwent Lab Brexit 8,647 28.6% Nick Smith No
+Blaydon Lab Con 5,531 12.1% Liz Twist No
+Blyth Valley Con Lab 712 1.7% Ian Levy Yes
+Bognor Regis and Littlehampton Con Lab 22,503 43.9% Nick Gibb No
+Bolsover Con Lab 5,299 11.5% Mark Fletcher Yes
+Bolton North East Con Lab 378 0.9% Mark Logan Yes
+Bolton South East Lab Con 7,598 18.7% Yasmin Qureshi No
+Bolton West Con Lab 8,855 18.0% Chris Green No
+Bootle Lab Con 34,556 70.3% Peter Dowd No
+Boston and Skegness Con Lab 25,621 61.4% Matt Warman No
+Bosworth Con Lab 26,278 46.6% Luke Evans Yes
+Bournemouth East Con Lab 8,806 17.9% Tobias Ellwood No
+Bournemouth West Con Lab 10,150 22.1% Conor Burns No
+Bracknell Con Lab 19,829 36.5% James Sunderland Yes
+Bradford East Lab Con 18,144 41.1% Imran Hussain No
+Bradford South Lab Con 2,346 5.9% Judith Cummins No
+Bradford West Lab Con 27,019 61.0% Naz Shah No
+Braintree Con Lab 24,673 48.9% James Cleverly No
+Brecon and Radnorshire Con LD 7,131 17.3% Fay Jones Yes
+Brent Central Lab Con 20,870 42.5% Dawn Butler No
+Brentford and Isleworth Lab Con 10,514 18.0% Ruth Cadbury No
+Brent North Lab Con 8,079 15.6% Barry Gardiner No
+Brentwood and Ongar Con Lab 29,065 54.9% Alex Burghart No
+Bridgend Con Lab 1,157 2.7% Jamie Wallis Yes
+Bridgwater and West Somerset Con Lab 24,439 42.4% Ian Liddell-Grainger No
+Brigg and Goole Con Lab 21,941 50.6% Andrew Percy No
+Brighton, Kemptown Lab Con 8,061 16.6% Lloyd Russell-Moyle No
+Brighton, Pavilion Green Lab 19,940 34.4% Caroline Lucas No
+Bristol East Lab Con 10,794 20.7% Kerry McCarthy No
+Bristol North West Lab Con 5,692 10.2% Darren Jones No
+Bristol South Lab Con 9,859 17.9% Karin Smyth No
+Bristol West Lab Green 28,219 37.4% Thangam Debbonaire No
+Broadland Con Lab 21,861 38.4% Jerome Mayhew Yes
+Bromley and Chislehurst Con Lab 10,891 23.9% Robert Neill No
+Bromsgrove Con Lab 23,106 42.6% Sajid Javid No
+Broxbourne Con Lab 19,807 42.4% Charles Walker No
+Broxtowe Con Lab 5,331 9.6% Darren Henry Yes
+Buckingham Con LD 20,411 32.2% Greg Smith Yes
+Burnley Con Lab 1,352 3.5% Antony Higginbotham Yes
+Burton Con Lab 14,496 29.7% Kate Griffiths Yes
+Bury North Con Lab 105 0.2% James Daly Yes
+Bury South Con Lab 402 0.8% Christian Wakeford Yes
+Bury St Edmunds Con Lab 24,988 40.3% Jo Churchill No
+Caerphilly Lab Con 6,833 17.0% Wayne David No
+Caithness, Sutherland and Easter Ross LD SNP 204 0.6% Jamie Stone No
+Calder Valley Con Lab 5,774 10.0% Craig Whittaker No
+Camberwell and Peckham Lab Con 33,780 59.8% Harriet Harman No
+Camborne and Redruth Con Lab 8,700 17.3% George Eustice No
+Cambridge Lab LD 9,639 17.9% Daniel Zeichner No
+Cannock Chase Con Lab 19,879 42.9% Amanda Milling No
+Canterbury Lab Con 1,836 3.1% Rosemary Duffield No
+Cardiff Central Lab Con 17,179 41.1% Jo Stevens No
+Cardiff North Lab Con 6,982 13.3% Anna McMorrin No
+Cardiff South and Penarth Lab Con 12,737 25.2% Stephen Doughty No
+Cardiff West Lab Con 10,986 23.8% Kevin Brennan No
+Carlisle Con Lab 8,319 19.4% John Stevenson No
+Carmarthen East and Dinefwr PC Con 1,809 4.4% Jonathan Edwards No
+Carmarthen West and South Pembrokeshire Con Lab 7,745 18.4% Simon Hart No
+Carshalton and Wallington Con LD 629 1.3% Elliot Colburn Yes
+Castle Point Con Lab 26,634 60.2% Rebecca Harris No
+Central Ayrshire SNP Con 5,304 11.4% Philippa Whitford No
+Central Devon Con Lab 17,721 30.5% Mel Stride No
+Central Suffolk and North Ipswich Con Lab 23,391 41.6% Dan Poulter No
+Ceredigion PC Con 6,329 15.8% Ben Lake No
+Charnwood Con Lab 22,397 40.5% Edward Argar No
+Chatham and Aylesford Con Lab 18,540 42.8% Tracey Crouch No
+Cheadle Con LD 2,336 4.2% Mary Robinson No
+Chelmsford Con LD 17,621 30.8% Vicky Ford No
+Chelsea and Fulham Con LD 11,241 24.0% Greg Hands No
+Cheltenham Con LD 981 1.7% Alex Chalk No
+Chesham and Amersham Con LD 16,223 29.1% Cheryl Gillan No
+Chesterfield Lab Con 1,451 3.2% Toby Perkins No
+Chichester Con LD 21,490 35.1% Gillian Keegan No
+Chingford and Woodford Green Con Lab 1,262 2.6% Iain Duncan Smith No
+Chippenham Con LD 11,288 19.8% Michelle Donelan No
+Chipping Barnet Con Lab 1,212 2.1% Theresa Villiers No
+Chorley Spk Ind 17,392 43.6% Lindsay Hoyle No
+Christchurch Con LD 24,617 47.4% Christopher Chope No
+Cities Of London and Westminster Con LD 3,953 9.3% Nickie Aiken Yes
+City Of Chester Lab Con 6,164 11.3% Christian Matheson No
+City Of Durham Lab Con 5,025 10.3% Mary Foy Yes
+Clacton Con Lab 24,702 56.8% Giles Watling No
+Cleethorpes Con Lab 21,418 46.2% Martin Vickers No
+Clwyd South Con Lab 1,239 3.4% Simon Baynes Yes
+Clwyd West Con Lab 6,747 16.8% David Jones No
+Coatbridge, Chryston and Bellshill SNP Lab 5,624 11.7% Steven Bonnar Yes
+Colchester Con Lab 9,423 17.7% Will Quince No
+Colne Valley Con Lab 5,103 8.4% Jason McCartney Yes
+Congleton Con Lab 18,561 32.4% Fiona Bruce No
+Copeland Con Lab 5,842 13.7% Trudy Harrison No
+Corby Con Lab 10,268 17.0% Tom Pursglove No
+Coventry North East Lab Con 7,692 17.3% Colleen Fletcher No
+Coventry North West Lab Con 208 0.4% Taiwo Owatemi Yes
+Coventry South Lab Con 401 0.9% Zarah Sultana Yes
+Crawley Con Lab 8,360 16.8% Henry Smith No
+Crewe and Nantwich Con Lab 8,508 15.7% Kieran Mullan Yes
+Croydon Central Lab Con 5,949 11.0% Sarah Jones No
+Croydon North Lab Con 24,673 44.4% Steve Reed No
+Croydon South Con Lab 12,339 20.8% Chris Philp No
+Cumbernauld, Kilsyth and Kirkintilloch East SNP Lab 12,976 28.4% Stuart C. McDonald No
+Cynon Valley Lab Con 8,822 29.2% Beth Winter Yes
+Dagenham and Rainham Lab Con 293 0.7% Jon Cruddas No
+Darlington Con Lab 3,294 7.6% Peter Gibson Yes
+Dartford Con Lab 19,160 35.5% Gareth Johnson No
+Daventry Con Lab 26,080 45.4% Chris Heaton-Harris No
+Delyn Con Lab 865 2.3% Rob Roberts Yes
+Denton and Reddish Lab Con 6,175 16.0% Andrew Gwynne No
+Derby North Con Lab 2,540 5.4% Amanda Solloway Yes
+Derbyshire Dales Con Lab 17,381 34.8% Sarah Dines Yes
+Derby South Lab Con 6,019 14.2% Margaret Beckett No
+Devizes Con LD 23,993 47.1% Danny Kruger Yes
+Dewsbury Con Lab 1,561 2.8% Mark Eastwood Yes
+Doncaster Central Lab Con 2,278 5.5% Rosie Winterton No
+Doncaster North Lab Con 2,370 5.8% Edward Miliband No
+Don Valley Con Lab 3,630 8.0% Nick Fletcher Yes
+Dover Con Lab 12,278 24.2% Natalie Elphicke Yes
+Dudley North Con Lab 11,533 31.4% Marco Longhi Yes
+Dudley South Con Lab 15,565 42.6% Mike Wood No
+Dulwich and West Norwood Lab Green 27,310 49.0% Helen Hayes No
+Dumfries and Galloway Con SNP 1,805 3.5% Alister Jack No
+Dumfriesshire, Clydesdale and Tweeddale Con SNP 3,781 7.7% David Mundell No
+Dundee East SNP Con 13,375 29.5% Stewart Hosie No
+Dundee West SNP Lab 12,259 29.5% Chris Law No
+Dunfermline and West Fife SNP Lab 10,699 20.0% Douglas Chapman No
+Dwyfor Meirionnydd PC Con 4,740 15.8% Liz Saville Roberts No
+Ealing Central and Acton Lab Con 13,300 24.3% Rupa Huq No
+Ealing North Lab Con 12,269 24.7% James Murray Yes
+Ealing, Southall Lab Con 16,084 38.1% Virendra Sharma No
+Easington Lab Con 6,581 19.0% Grahame Morris No
+East Antrim DUP Alliance 6,706 18.0% Sammy Wilson No
+Eastbourne Con LD 4,331 7.9% Caroline Ansell Yes
+East Devon Con Ind 6,708 10.5% Simon Jupp Yes
+East Dunbartonshire SNP LD 149 0.3% Amy Callaghan Yes
+East Ham Lab Con 33,176 60.7% Stephen Timms No
+East Hampshire Con LD 19,696 34.6% Damian Hinds No
+East Kilbride, Strathaven and Lesmahagow SNP Lab 13,322 23.6% Lisa Cameron No
+Eastleigh Con LD 15,607 26.5% Paul Holmes Yes
+East Londonderry DUP SDLP 9,607 24.4% Gregory Campbell No
+East Lothian SNP Lab 3,886 6.6% Kenny MacAskill Yes
+East Renfrewshire SNP Con 5,426 9.8% Kirsten Oswald Yes
+East Surrey Con LD 24,040 40.3% Claire Coutinho Yes
+East Worthing and Shoreham Con Lab 7,474 14.1% Tim Loughton No
+East Yorkshire Con Lab 22,787 43.2% Greg Knight No
+Eddisbury Con Lab 18,443 34.8% Edward Timpson Yes
+Edinburgh East SNP Lab 10,417 21.8% Tommy Sheppard No
+Edinburgh North and Leith SNP Lab 12,808 21.6% Deidre Brock No
+Edinburgh South Lab SNP 11,095 22.3% Ian Murray No
+Edinburgh South West SNP Con 11,982 23.0% Joanna Cherry No
+Edinburgh West LD SNP 3,769 6.9% Christine Jardine No
+Edmonton Lab Con 16,015 39.7% Kate Osamor No
+Ellesmere Port and Neston Lab Con 8,764 18.0% Justin Madders No
+Elmet and Rothwell Con Lab 17,353 29.8% Alec Shelbrooke No
+Eltham Lab Con 3,197 7.3% Clive Efford No
+Enfield North Lab Con 6,492 14.4% Feryal Clark Yes
+Enfield, Southgate Lab Con 4,450 9.4% Bambos Charalambous No
+Epping Forest Con Lab 22,173 44.1% Eleanor Laing No
+Epsom and Ewell Con LD 17,873 30.1% Chris Grayling No
+Erewash Con Lab 10,606 21.7% Maggie Throup No
+Erith and Thamesmead Lab Con 3,758 9.1% Abena Oppong-Asare Yes
+Esher and Walton Con LD 2,743 4.3% Dominic Raab No
+Exeter Lab Con 10,403 18.5% Ben Bradshaw No
+Falkirk SNP Con 14,948 26.8% John McNally No
+Fareham Con Lab 26,086 45.6% Suella Braverman No
+Faversham and Mid Kent Con Lab 21,976 43.6% Helen Whately No
+Feltham and Heston Lab Con 7,859 16.4% Seema Malhotra No
+Fermanagh and South Tyrone SF UUP 57 0.1% Michelle Gildernew No
+Filton and Bradley Stoke Con Lab 5,646 10.5% Jack Lopresti No
+Finchley and Golders Green Con LD 6,562 11.9% Mike Freer No
+Folkestone and Hythe Con Lab 21,337 36.2% Damian Collins No
+Forest Of Dean Con Lab 15,869 30.8% Mark Harper No
+Foyle SDLP SF 17,110 36.3% Colum Eastwood Yes
+Fylde Con Lab 16,611 35.6% Mark Menzies No
+Gainsborough Con Lab 22,967 45.0% Edward Leigh No
+Garston and Halewood Lab Con 31,624 59.3% Maria Eagle No
+Gateshead Lab Con 7,200 18.9% Ian Mearns No
+Gedling Con Lab 679 1.4% Tom Randall Yes
+Gillingham and Rainham Con Lab 15,119 32.9% Rehman Chishti No
+Glasgow Central SNP Lab 6,474 16.1% Alison Thewliss No
+Glasgow East SNP Lab 5,566 14.5% David Linden No
+Glasgow North SNP Lab 5,601 15.5% Patrick Grady No
+Glasgow North East SNP Lab 2,548 7.5% Anne McLaughlin Yes
+Glasgow North West SNP Lab 8,359 21.0% Carol Monaghan No
+Glasgow South SNP Lab 9,005 19.0% Stewart Malcolm McDonald No
+Glasgow South West SNP Lab 4,900 13.3% Chris Stephens No
+Glenrothes SNP Lab 11,757 28.3% Peter Grant No
+Gloucester Con Lab 10,277 19.1% Richard Graham No
+Gordon SNP Con 819 1.5% Richard Thomson Yes
+Gosport Con Lab 23,278 48.0% Caroline Dinenage No
+Gower Lab Con 1,837 4.1% Tonia Antoniazzi No
+Grantham and Stamford Con Lab 26,003 46.4% Gareth Davies Yes
+Gravesham Con Lab 15,581 32.8% Adam Holloway No
+Great Grimsby Con Lab 7,331 22.2% Lia Nici Yes
+Great Yarmouth Con Lab 17,663 40.6% Brandon Lewis No
+Greenwich and Woolwich Lab Con 18,464 34.8% Matthew Pennycook No
+Guildford Con LD 3,337 5.7% Angela Richardson Yes
+Hackney North and Stoke Newington Lab Con 33,188 58.4% Diane Abbott No
+Hackney South and Shoreditch Lab Con 33,985 62.4% Meg Hillier No
+Halesowen and Rowley Regis Con Lab 12,074 28.5% James Morris No
+Halifax Lab Con 2,569 5.5% Holly Lynch No
+Haltemprice and Howden Con Lab 20,329 40.8% David Davis No
+Halton Lab Con 18,975 41.1% Derek Twigg No
+Hammersmith Lab Con 17,847 34.3% Andy Slaughter No
+Hampstead and Kilburn Lab Con 14,188 24.7% Tulip Siddiq No
+Harborough Con Lab 17,278 30.1% Neil O'Brien No
+Harlow Con Lab 14,063 32.4% Robert Halfon No
+Harrogate and Knaresborough Con LD 9,675 17.0% Andrew Jones No
+Harrow East Con Lab 8,170 16.5% Bob Blackman No
+Harrow West Lab Con 8,692 18.1% Gareth Thomas No
+Hartlepool Lab Con 3,595 8.8% Mike Hill No
+Harwich and North Essex Con Lab 20,182 38.8% Bernard Jenkin No
+Hastings and Rye Con Lab 4,043 7.4% Sally-Ann Hart Yes
+Havant Con Lab 21,792 47.4% Alan Mak No
+Hayes and Harlington Lab Con 9,261 21.1% John McDonnell No
+Hazel Grove Con LD 4,423 10.0% William Wragg No
+Hemel Hempstead Con Lab 14,563 28.4% Mike Penning No
+Hemsworth Lab Con 1,180 2.7% Jon Trickett No
+Hendon Con Lab 4,230 7.7% Matthew Offord No
+Henley Con LD 14,053 23.9% John Howell No
+Hereford and South Herefordshire Con Lab 19,686 39.7% Jesse Norman No
+Hertford and Stortford Con Lab 19,620 32.6% Julie Marson Yes
+Hertsmere Con Lab 21,313 40.8% Oliver Dowden No
+Hexham Con Lab 10,549 22.9% Guy Opperman No
+Heywood and Middleton Con Lab 663 1.4% Chris Clarkson Yes
+High Peak Con Lab 590 1.1% Robert Largan Yes
+Hitchin and Harpenden Con LD 6,895 11.7% Bim Afolami No
+Holborn and St Pancras Lab Con 27,763 48.9% Keir Starmer No
+Hornchurch and Upminster Con Lab 23,308 43.2% Julia Lopez No
+Hornsey and Wood Green Lab LD 19,242 31.5% Catherine West No
+Horsham Con LD 21,127 33.4% Jeremy Quin No
+Houghton and Sunderland South Lab Con 3,115 7.8% Bridget Phillipson No
+Hove Lab Con 17,044 30.2% Peter Kyle No
+Huddersfield Lab Con 4,937 11.8% Barry Sheerman No
+Huntingdon Con Lab 19,383 32.8% Jonathan Djanogly No
+Hyndburn Con Lab 2,951 7.0% Sara Britcliffe Yes
+Ilford North Lab Con 5,218 10.4% Wes Streeting No
+Ilford South Lab Con 24,101 45.1% Sam Tarry Yes
+Inverclyde SNP Lab 7,512 18.8% Ronnie Cowan No
+Inverness, Nairn, Badenoch and Strathspey SNP Con 10,440 19.0% Drew Hendry No
+Ipswich Con Lab 5,479 11.1% Tom Hunt Yes
+Isle Of Wight Con Lab 23,737 31.9% Bob Seely No
+Islington North Lab LD 26,188 48.7% Jeremy Corbyn No
+Islington South and Finsbury Lab LD 17,328 36.2% Emily Thornberry No
+Islwyn Lab Con 5,464 15.9% Chris Evans No
+Jarrow Lab Con 7,120 17.5% Kate Osborne Yes
+Keighley Con Lab 2,218 4.2% Robbie Moore Yes
+Kenilworth and Southam Con LD 20,353 38.7% Jeremy Wright No
+Kensington Con Lab 150 0.3% Felicity Buchan Yes
+Kettering Con Lab 16,765 34.0% Philip Hollobone No
+Kilmarnock and Loudoun SNP Con 12,659 26.6% Alan Brown No
+Kingston and Surbiton LD Con 10,489 17.2% Edward Davey No
+Kingston upon Hull East Lab Con 1,239 3.8% Karl Turner No
+Kingston upon Hull North Lab Con 7,593 22.2% Diana Johnson No
+Kingston upon Hull West and Hessle Lab Con 2,856 9.1% Emma Hardy No
+Kingswood Con Lab 11,220 22.8% Chris Skidmore No
+Kirkcaldy and Cowdenbeath SNP Lab 1,243 2.6% Neale Hanvey Yes
+Knowsley Lab Con 39,942 72.7% George Howarth No
+Lagan Valley DUP Alliance 6,499 14.3% Jeffrey M. Donaldson No
+Lanark and Hamilton East SNP Con 5,187 9.8% Angela Crawley No
+Lancaster and Fleetwood Lab Con 2,380 5.3% Cat Smith No
+Leeds Central Lab Con 19,270 39.1% Hilary Benn No
+Leeds East Lab Con 5,531 14.2% Richard Burgon No
+Leeds North East Lab Con 17,089 33.8% Fabian Hamilton No
+Leeds North West Lab Con 10,749 21.8% Alex Sobel No
+Leeds West Lab Con 10,564 26.2% Rachel Reeves No
+Leicester East Lab Con 6,019 12.2% Claudia Webbe Yes
+Leicester South Lab Con 22,675 45.2% Jonathan Ashworth No
+Leicester West Lab Con 4,212 12.1% Liz Kendall No
+Leigh Con Lab 1,965 4.2% James Grundy Yes
+Lewes Con LD 2,457 4.5% Maria Caulfield No
+Lewisham, Deptford Lab Con 32,913 59.4% Vicky Foxcroft No
+Lewisham East Lab Con 17,008 38.0% Janet Daby No
+Lewisham West and Penge Lab Con 21,543 41.3% Ellie Reeves No
+Leyton and Wanstead Lab Con 20,808 46.7% John Cryer No
+Lichfield Con Lab 23,638 43.8% Michael Fabricant No
+Lincoln Con Lab 3,514 6.9% Karl McCartney Yes
+Linlithgow and East Falkirk SNP Con 11,266 19.5% Martyn Day No
+Liverpool, Riverside Lab Con 37,043 70.2% Kim Johnson Yes
+Liverpool, Walton Lab Con 30,520 74.8% Dan Carden No
+Liverpool, Wavertree Lab Con 27,085 62.4% Paula Barker Yes
+Liverpool, West Derby Lab Con 29,984 68.2% Ian Byrne Yes
+Livingston SNP Con 13,435 24.6% Hannah Bardell No
+Llanelli Lab Con 4,670 12.2% Nia Griffith No
+Loughborough Con Lab 7,169 13.1% Jane Hunt Yes
+Louth and Horncastle Con Lab 28,868 55.2% Victoria Atkins No
+Ludlow Con LD 23,648 47.1% Philip Dunne No
+Luton North Lab Con 9,247 21.7% Sarah Owen Yes
+Luton South Lab Con 8,756 20.8% Rachel Hopkins Yes
+Macclesfield Con Lab 10,711 19.9% David Rutley No
+Maidenhead Con LD 18,846 33.4% Theresa May No
+Maidstone and The Weald Con Lab 21,772 42.1% Helen Grant No
+Makerfield Lab Con 4,740 10.7% Yvonne Fovargue No
+Maldon Con Lab 30,041 59.6% John Whittingdale No
+Manchester Central Lab Con 29,089 55.6% Lucy Powell No
+Manchester, Gorton Lab Con 30,339 68.1% Afzal Khan No
+Manchester, Withington Lab LD 27,905 52.7% Jeff Smith No
+Mansfield Con Lab 16,306 33.1% Ben Bradley No
+Meon Valley Con LD 23,555 43.0% Flick Drummond Yes
+Meriden Con Lab 22,836 42.2% Saqib Bhatti Yes
+Merthyr Tydfil and Rhymney Lab Con 10,606 32.9% Gerald Jones No
+Mid Bedfordshire Con Lab 24,664 38.1% Nadine Dorries No
+Mid Derbyshire Con Lab 15,385 31.2% Pauline Latham No
+Middlesbrough Lab Con 8,395 24.6% Andy McDonald No
+Middlesbrough South and East Cleveland Con Lab 11,626 24.3% Simon Clarke No
+Mid Dorset and North Poole Con LD 14,898 30.4% Michael Tomlinson No
+Midlothian SNP Lab 5,705 11.8% Owen Thompson Yes
+Mid Norfolk Con Lab 22,594 40.2% George Freeman No
+Mid Sussex Con LD 18,197 29.0% Mims Davies No
+Mid Ulster SF DUP 9,537 21.4% Francie Molloy No
+Mid Worcestershire Con Lab 28,018 49.9% Nigel Huddleston No
+Milton Keynes North Con Lab 6,255 10.0% Ben Everitt Yes
+Milton Keynes South Con Lab 6,944 10.8% Iain Stewart No
+Mitcham and Morden Lab Con 16,482 36.0% Siobhain McDonagh No
+Mole Valley Con LD 12,041 21.1% Paul Beresford No
+Monmouth Con Lab 9,982 19.9% David T. C. Davies No
+Montgomeryshire Con LD 12,138 35.5% Craig Williams Yes
+Moray Con SNP 513 1.1% Douglas Ross No
+Morecambe and Lunesdale Con Lab 6,354 14.0% David Morris No
+Morley and Outwood Con Lab 11,267 21.7% Andrea Jenkyns No
+Motherwell and Wishaw SNP Lab 6,268 14.1% Marion Fellows No
+Na h-Eileanan An Iar SNP Lab 2,438 16.8% Angus Brendan MacNeil No
+Neath Lab Con 5,637 15.3% Christina Rees No
+Newark Con Lab 21,816 39.8% Robert Jenrick No
+Newbury Con LD 16,047 26.7% Laura Farris Yes
+Newcastle-Under-Lyme Con Lab 7,446 16.6% Aaron Bell Yes
+Newcastle Upon Tyne Central Lab Con 12,278 32.8% Chi Onwurah No
+Newcastle Upon Tyne East Lab Con 15,463 35.7% Nicholas Brown No
+Newcastle Upon Tyne North Lab Con 5,765 12.3% Catherine McKinnell No
+New Forest East Con Lab 25,251 49.7% Julian Lewis No
+New Forest West Con LD 24,403 48.5% Desmond Swayne No
+Newport East Lab Con 1,992 5.5% Jessica Morden No
+Newport West Lab Con 902 2.1% Ruth Jones No
+Newry and Armagh SF DUP 9,287 18.3% Mickey Brady No
+Newton Abbot Con LD 17,501 33.3% Anne Marie Morris No
+Normanton, Pontefract and Castleford Lab Con 1,276 2.6% Yvette Cooper No
+Northampton North Con Lab 5,507 13.9% Michael Ellis No
+Northampton South Con Lab 4,697 11.5% Andrew Lewer No
+North Antrim DUP UUP 12,721 28.9% Ian Paisley No
+North Ayrshire and Arran SNP Con 8,521 17.7% Patricia Gibson No
+North Cornwall Con LD 14,752 28.5% Scott Mann No
+North Devon Con LD 14,813 26.7% Selaine Saxby Yes
+North Dorset Con LD 24,301 43.3% Simon Hoare No
+North Down Alliance DUP 2,968 7.3% Stephen Farry Yes
+North Durham Lab Con 4,742 11.2% Kevan Jones No
+North East Bedfordshire Con Lab 24,283 37.3% Richard Fuller Yes
+North East Cambridgeshire Con Lab 29,993 56.6% Stephen Barclay No
+North East Derbyshire Con Lab 12,876 26.2% Lee Rowley No
+North East Fife LD SNP 1,316 2.9% Wendy Chamberlain Yes
+North East Hampshire Con LD 20,211 34.1% Ranil Jayawardena No
+North East Hertfordshire Con Lab 18,189 32.9% Oliver Heald No
+North East Somerset Con Lab 14,729 26.2% Jacob Rees-Mogg No
+North Herefordshire Con LD 24,856 48.7% Bill Wiggin No
+North Norfolk Con LD 14,395 28.3% Duncan Baker Yes
+North Shropshire Con Lab 22,949 40.6% Owen Paterson No
+North Somerset Con Lab 17,536 28.3% Liam Fox No
+North Swindon Con Lab 16,171 29.3% Justin Tomlinson No
+North Thanet Con Lab 17,189 35.7% Roger Gale No
+North Tyneside Lab Con 9,561 19.0% Mary Glindon No
+North Warwickshire Con Lab 17,956 39.1% Craig Tracey No
+North West Cambridgeshire Con Lab 25,983 40.3% Shailesh Vara No
+North West Durham Con Lab 1,144 2.4% Richard Holden Yes
+North West Hampshire Con LD 26,308 44.7% Kit Malthouse No
+North West Leicestershire Con Lab 20,400 37.9% Andrew Bridgen No
+North West Norfolk Con Lab 19,922 42.7% James Wild Yes
+North Wiltshire Con LD 17,626 32.2% James Gray No
+Norwich North Con Lab 4,738 10.2% Chloe Smith No
+Norwich South Lab Con 12,760 24.7% Clive Lewis No
+Nottingham East Lab Con 17,393 43.5% Nadia Whittome Yes
+Nottingham North Lab Con 4,490 12.7% Alex Norris No
+Nottingham South Lab Con 12,568 26.1% Lilian Greenwood No
+Nuneaton Con Lab 13,144 29.1% Marcus Jones No
+Ochil and South Perthshire SNP Con 4,498 7.8% John Nicolson Yes
+Ogmore Lab Con 7,805 22.1% Chris Elmore No
+Old Bexley and Sidcup Con Lab 18,952 41.1% James Brokenshire No
+Oldham East and Saddleworth Lab Con 1,499 3.2% Debbie Abrahams No
+Oldham West and Royton Lab Con 11,127 25.0% Jim McMahon No
+Orkney and Shetland LD SNP 2,507 10.8% Alistair Carmichael No
+Orpington Con Lab 22,378 45.9% Gareth Bacon Yes
+Oxford East Lab Con 17,832 36.1% Anneliese Dodds No
+Oxford West and Abingdon LD Con 8,943 15.2% Layla Moran No
+Paisley and Renfrewshire North SNP Lab 11,902 24.0% Gavin Newlands No
+Paisley and Renfrewshire South SNP Lab 10,679 24.8% Mhairi Black No
+Pendle Con Lab 6,186 13.9% Andrew Stephenson No
+Penistone and Stocksbridge Con Lab 7,210 14.6% Miriam Cates Yes
+Penrith and The Border Con Lab 18,519 38.7% Neil Hudson Yes
+Perth and North Perthshire SNP Con 7,550 14.0% Pete Wishart No
+Peterborough Con Lab 2,580 5.4% Paul Bristow Yes
+Plymouth, Moor View Con Lab 12,897 29.2% Johnny Mercer No
+Plymouth, Sutton and Devonport Lab Con 4,757 8.9% Luke Pollard No
+Pontypridd Lab Con 5,887 15.1% Alex Davies-Jones Yes
+Poole Con Lab 19,116 37.9% Robert Syms No
+Poplar and Limehouse Lab Con 28,904 47.2% Apsana Begum Yes
+Portsmouth North Con Lab 15,780 34.4% Penny Mordaunt No
+Portsmouth South Lab Con 5,363 11.3% Stephen Morgan No
+Preseli Pembrokeshire Con Lab 5,062 11.9% Stephen Crabb No
+Preston Lab Con 12,146 35.9% Mark Hendrick No
+Pudsey Con Lab 3,517 6.5% Stuart Andrew No
+Putney Lab Con 4,774 9.5% Fleur Anderson Yes
+Rayleigh and Wickford Con Lab 31,000 56.5% Mark Francois No
+Reading East Lab Con 5,924 10.6% Mathew Rodda No
+Reading West Con Lab 4,117 8.2% Alok Sharma No
+Redcar Con Lab 3,527 8.6% Jacob Young Yes
+Redditch Con Lab 16,036 36.4% Rachel Maclean No
+Reigate Con Lab 18,310 34.4% Crispin Blunt No
+Rhondda Lab Con 11,440 38.6% Chris Bryant No
+Ribble Valley Con Lab 18,439 33.4% Nigel Evans No
+Richmond Park LD Con 7,766 11.9% Sarah Olney Yes
+Richmond (Yorks) Con Lab 27,210 47.2% Rishi Sunak No
+Rochdale Lab Con 9,668 20.4% Tony Lloyd No
+Rochester and Strood Con Lab 17,072 32.9% Kelly Tolhurst No
+Rochford and Southend East Con Lab 12,286 26.6% James Duddridge No
+Romford Con Lab 17,893 37.9% Andrew Rosindell No
+Romsey and Southampton North Con LD 10,872 21.2% Caroline Nokes No
+Rossendale and Darwen Con Lab 9,522 19.5% Jake Berry No
+Ross, Skye and Lochaber SNP LD 9,443 23.7% Ian Blackford No
+Rotherham Lab Con 3,121 8.8% Sarah Champion No
+Rother Valley Con Lab 6,318 13.0% Alexander Stafford Yes
+Rugby Con Lab 13,447 26.5% Mark Pawsey No
+Ruislip, Northwood and Pinner Con Lab 16,394 31.0% David Simmonds Yes
+Runnymede and Weybridge Con Lab 18,270 34.3% Ben Spencer Yes
+Rushcliffe Con Lab 7,643 12.6% Ruth Edwards Yes
+Rutherglen and Hamilton West SNP Lab 5,230 9.7% Margaret Ferrier Yes
+Rutland and Melton Con Lab 26,924 46.2% Alicia Kearns Yes
+Saffron Walden Con LD 27,594 43.7% Kemi Badenoch No
+Salford and Eccles Lab Con 16,327 32.2% Rebecca Long-Bailey No
+Salisbury Con LD 19,736 36.7% John Glen No
+Scarborough and Whitby Con Lab 10,270 20.7% Robert Goodwill No
+Scunthorpe Con Lab 6,451 17.1% Holly Mumby-Croft Yes
+Sedgefield Con Lab 4,513 10.9% Paul Howell Yes
+Sefton Central Lab Con 15,122 29.7% Bill Esterson No
+Selby and Ainsty Con Lab 20,137 35.7% Nigel Adams No
+Sevenoaks Con LD 20,818 40.9% Laura Trott Yes
+Sheffield, Brightside and Hillsborough Lab Con 12,274 31.0% Gill Furniss No
+Sheffield Central Lab Con 27,273 53.6% Paul Blomfield No
+Sheffield, Hallam Lab LD 712 1.3% Olivia Blake Yes
+Sheffield, Heeley Lab Con 8,520 20.0% Louise Haigh No
+Sheffield South East Lab Con 4,289 10.2% Clive Betts No
+Sherwood Con Lab 16,186 30.7% Mark Spencer No
+Shipley Con Lab 6,242 11.6% Philip Davies No
+Shrewsbury and Atcham Con Lab 11,217 19.0% Daniel Kawczynski No
+Sittingbourne and Sheppey Con Lab 24,479 47.6% Gordon Henderson No
+Skipton and Ripon Con Lab 23,694 40.3% Julian Smith No
+Sleaford and North Hykeham Con Lab 32,565 48.9% Caroline Johnson No
+Slough Lab Con 13,640 26.7% Tan Dhesi No
+Solihull Con Lab 21,273 38.4% Julian Knight No
+Somerton and Frome Con LD 19,213 29.6% David Warburton No
+Southampton, Itchen Con Lab 4,498 9.5% Royston Smith No
+Southampton, Test Lab Con 6,213 13.8% Alan Whitehead No
+South Antrim DUP UUP 2,689 6.3% Paul Girvan No
+South Basildon and East Thurrock Con Lab 19,922 44.0% Stephen Metcalfe No
+South Cambridgeshire Con LD 2,904 4.3% Anthony Browne Yes
+South Derbyshire Con Lab 19,335 36.2% Heather Wheeler No
+South Dorset Con Lab 17,153 33.6% Richard Drax No
+South Down SF SDLP 1,620 3.3% Chris Hazzard No
+South East Cambridgeshire Con LD 11,490 17.8% Lucy Frazer No
+South East Cornwall Con Lab 20,971 39.1% Sheryll Murray No
+Southend West Con Lab 14,459 31.1% David Amess No
+South Holland and The Deepings Con Lab 30,838 62.7% John Hayes No
+South Leicestershire Con Lab 24,004 41.8% Alberto Costa No
+South Norfolk Con Lab 21,275 34.0% Richard Bacon No
+South Northamptonshire Con Lab 27,761 41.5% Andrea Leadsom No
+Southport Con Lab 4,147 8.6% Damien Moore No
+South Ribble Con Lab 11,199 20.8% Katherine Fletcher Yes
+South Shields Lab Con 9,585 25.3% Emma Lewell-Buck No
+South Staffordshire Con Lab 28,250 56.5% Gavin Williamson No
+South Suffolk Con Lab 22,897 42.8% James Cartlidge No
+South Swindon Con Lab 6,625 13.1% Robert Buckland No
+South Thanet Con Lab 10,587 21.9% Craig Mackinlay No
+South West Bedfordshire Con Lab 18,583 34.9% Andrew Selous No
+South West Devon Con Lab 21,430 40.2% Gary Streeter No
+South West Hertfordshire Con Ind 14,408 23.5% Gagan Mohindra Yes
+South West Norfolk Con Lab 26,195 50.9% Elizabeth Truss No
+South West Surrey Con LD 8,817 14.6% Jeremy Hunt No
+South West Wiltshire Con Lab 21,630 39.4% Andrew Murrison No
+Spelthorne Con Lab 18,393 37.2% Kwasi Kwarteng No
+Stafford Con Lab 14,377 28.1% Theo Clarke Yes
+Staffordshire Moorlands Con Lab 16,428 37.6% Karen Bradley No
+St Albans LD Con 6,293 10.9% Daisy Cooper Yes
+Stalybridge and Hyde Lab Con 2,946 7.0% Jonathan Reynolds No
+St Austell and Newquay Con Lab 16,526 29.6% Steve Double No
+Stevenage Con Lab 8,562 18.0% Stephen McPartland No
+St Helens North Lab Con 12,209 25.7% Conor McGinn No
+St Helens South and Whiston Lab Con 19,122 38.0% Marie Rimmer No
+Stirling SNP Con 9,254 17.6% Alyn Smith Yes
+St Ives Con LD 4,280 8.3% Derek Thomas No
+Stockport Lab Con 10,039 24.1% Navendu Mishra Yes
+Stockton North Lab Con 1,027 2.5% Alex Cunningham No
+Stockton South Con Lab 5,260 9.6% Matt Vickers Yes
+Stoke-On-Trent Central Con Lab 670 2.1% Jo Gideon Yes
+Stoke-On-Trent North Con Lab 6,286 15.7% Jonathan Gullis Yes
+Stoke-On-Trent South Con Lab 11,271 28.5% Jack Brereton No
+Stone Con Lab 19,945 40.0% William Cash No
+Stourbridge Con Lab 13,571 29.7% Suzanne Webb Yes
+Strangford DUP Alliance 7,071 18.9% Jim Shannon No
+Stratford-On-Avon Con LD 19,972 36.3% Nadhim Zahawi No
+Streatham Lab LD 17,690 31.3% Bell Ribeiro-Addy Yes
+Stretford and Urmston Lab Con 16,417 32.8% Kate Green No
+Stroud Con Lab 3,840 5.8% Siobhan Baillie Yes
+Suffolk Coastal Con Lab 20,533 35.2% Thérèse Coffey No
+Sunderland Central Lab Con 2,964 6.8% Julie Elliott No
+Surrey Heath Con LD 18,349 31.3% Michael Gove No
+Sutton and Cheam Con LD 8,351 16.5% Paul Scully No
+Sutton Coldfield Con Lab 19,272 36.8% Andrew Mitchell No
+Swansea East Lab Con 7,970 23.7% Carolyn Harris No
+Swansea West Lab Con 8,116 22.7% Geraint Davies No
+Tamworth Con Lab 19,634 42.6% Christopher Pincher No
+Tatton Con Lab 17,387 35.5% Esther McVey No
+Taunton Deane Con LD 11,700 18.4% Rebecca Pow No
+Telford Con Lab 10,941 25.5% Lucy Allan No
+Tewkesbury Con LD 22,410 36.7% Laurence Robertson No
+The Cotswolds Con LD 20,214 33.0% Geoffrey Clifton-Brown No
+The Wrekin Con Lab 18,726 38.3% Mark Pritchard No
+Thirsk and Malton Con Lab 25,154 44.5% Kevin Hollinrake No
+Thornbury and Yate Con LD 12,369 23.7% Luke Hall No
+Thurrock Con Lab 11,482 24.2% Jacqueline Doyle-Price No
+Tiverton and Honiton Con Lab 24,239 40.7% Neil Parish No
+Tonbridge and Malling Con LD 26,941 47.3% Thomas Tugendhat No
+Tooting Lab Con 14,307 24.5% Rosena Allin-Khan No
+Torbay Con LD 17,749 35.2% Kevin Foster No
+Torfaen Lab Con 3,742 10.1% Nick Thomas-Symonds No
+Torridge and West Devon Con LD 24,992 41.8% Geoffrey Cox No
+Totnes Con LD 12,724 24.4% Anthony Mangnall Yes
+Tottenham Lab Con 30,175 64.4% David Lammy No
+Truro and Falmouth Con Lab 4,561 7.7% Cherilyn Mackrory Yes
+Tunbridge Wells Con LD 14,645 26.8% Gregory Clark No
+Twickenham LD Con 14,121 21.9% Munira Wilson Yes
+Tynemouth Lab Con 4,857 8.7% Alan Campbell No
+Upper Bann DUP SF 8,210 16.4% Carla Lockhart Yes
+Uxbridge and South Ruislip Con Lab 7,210 15.0% Boris Johnson No
+Vale Of Clwyd Con Lab 1,827 4.9% James Davies Yes
+Vale Of Glamorgan Con Lab 3,562 6.5% Alun Cairns No
+Vauxhall Lab LD 19,612 34.8% Florence Eshalomi Yes
+Wakefield Con Lab 3,358 7.5% Imran Ahmad Khan Yes
+Wallasey Lab Con 18,322 39.4% Angela Eagle No
+Walsall North Con Lab 11,965 32.7% Eddie Hughes No
+Walsall South Lab Con 3,456 8.1% Valerie Vaz No
+Walthamstow Lab Con 30,862 63.9% Stella Creasy No
+Wansbeck Lab Con 814 2.0% Ian Lavery No
+Wantage Con LD 12,653 18.8% David Johnston Yes
+Warley Lab Con 11,511 30.9% John Spellar No
+Warrington North Lab Con 1,509 3.2% Charlotte Nichols Yes
+Warrington South Con Lab 2,010 3.2% Andy Carter Yes
+Warwick and Leamington Lab Con 789 1.5% Matt Western No
+Washington and Sunderland West Lab Con 3,723 9.9% Sharon Hodgson No
+Watford Con Lab 4,433 7.6% Dean Russell Yes
+Waveney Con Lab 18,002 35.2% Peter Aldous No
+Wealden Con LD 25,655 42.1% Nusrat Ghani No
+Weaver Vale Lab Con 562 1.1% Mike Amesbury No
+Wellingborough Con Lab 18,540 35.7% Peter Bone No
+Wells Con LD 9,991 16.2% James Heappey No
+Welwyn Hatfield Con Lab 10,955 21.0% Grant Shapps No
+Wentworth and Dearne Lab Con 2,165 5.2% John Healey No
+West Aberdeenshire and Kincardine Con SNP 843 1.6% Andrew Bowie No
+West Bromwich East Con Lab 1,593 4.4% Nicola Richards Yes
+West Bromwich West Con Lab 3,799 11.0% Shaun Bailey Yes
+West Dorset Con LD 14,106 23.2% Chris Loder Yes
+West Dunbartonshire SNP Lab 9,553 21.2% Martin Docherty-Hughes No
+West Ham Lab Con 32,388 53.8% Lyn Brown No
+West Lancashire Lab Con 8,336 15.8% Rosie Cooper No
+Westminster North Lab Con 10,759 25.1% Karen Buck No
+Westmorland and Lonsdale LD Con 1,934 3.7% Timothy Farron No
+Weston-Super-Mare Con Lab 17,121 30.8% John Penrose No
+West Suffolk Con Lab 23,194 45.1% Matthew Hancock No
+West Tyrone SF DUP 7,478 18.2% Órfhlaith Begley No
+West Worcestershire Con LD 24,499 42.6% Harriett Baldwin No
+Wigan Lab Con 6,728 14.9% Lisa Nandy No
+Wimbledon Con LD 628 1.2% Stephen Hammond No
+Winchester Con LD 985 1.7% Stephen Brine No
+Windsor Con LD 20,079 37.4% Adam Afriyie No
+Wirral South Lab Con 6,105 14.0% Alison McGovern No
+Wirral West Lab Con 3,003 7.0% Margaret Greenwood No
+Witham Con Lab 24,082 48.8% Priti Patel No
+Witney Con LD 15,177 24.8% Robert Courts No
+Woking Con LD 9,767 18.1% Jonathan Lord No
+Wokingham Con LD 7,383 11.9% John Redwood No
+Wolverhampton North East Con Lab 4,080 11.9% Jane Stevenson Yes
+Wolverhampton South East Lab Con 1,235 3.7% Pat McFadden No
+Wolverhampton South West Con Lab 1,661 4.0% Stuart Anderson Yes
+Worcester Con Lab 6,758 13.3% Robin Walker No
+Workington Con Lab 4,176 10.0% Mark Jenkinson Yes
+Worsley and Eccles South Lab Con 3,219 7.2% Barbara Keeley No
+Worthing West Con Lab 14,823 27.1% Peter Bottomley No
+Wrexham Con Lab 2,131 6.4% Sarah Atherton Yes
+Wycombe Con Lab 4,214 7.7% Steve Baker No
+Wyre and Preston North Con Lab 16,781 31.7% Ben Wallace No
+Wyre Forest Con Lab 21,413 42.4% Mark Garnier No
+Wythenshawe and Sale East Lab Con 10,396 23.2% Michael Kane No
+Yeovil Con LD 16,181 27.3% Marcus Fysh No
+Ynys Mon Con Lab 1,968 5.4% Virginia Crosbie Yes
+York Central Lab Con 13,545 27.4% Rachael Maskell No
+York Outer Con Lab 9,985 18.0% Julian Sturdy No

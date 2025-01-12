@@ -1,0 +1,7 @@
+PartyName Individual Company TradeUnion Other TotalValue TotalNumber %Share
+Conservatives 13,265,157 5,997,751 0 108,000 19,370,908 275 63.1%
+Labour 159,442 201,600 5,039,754 10,500 5,411,296 48 17.6%
+Liberal Democrats 1,004,998 241,000 0 0 1,245,998 38 4.1%
+Greens 232,477 10,000 0 0 242,477 9 0.8%
+Reform 4,150,000 0 0 0 4,150,000 9 13.5%
+Other 162,000 105,000 0 33,850 300,850 16 0.9%
