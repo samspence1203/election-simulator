@@ -3,9 +3,35 @@ class Campaign:
         self.election_year = election_year
         self.constituencies = []
         self.regions = []
-        self.campaign_calendar = []
-        self.funds = 0
+        self.campaign_calendar = []  # List of days (e.g., "Day 1", "Planning", "Day 2", "Event")
+        self.funds = 100000  # Starting campaign funds
         self.public_opinion = 50  # Starting at 50% approval
+        self.current_day = 0  # Track current day
+        self.stages = ["Planning", "Event", "Last-Minute"]
+
+        # Initialising the campaign calendar (e.g. 30 days in total for simplicity)
+        self.initialise_calendar()
+
+    def initialise_calendar(self):
+        """
+        Initialise the campaing calendar with phases.
+        This is just a basic starter-for-ten to work from.
+        """
+        self.campaign_calendar = []
+
+        # Add "Planning" phase for the first 10 days
+        for _ in range(10):
+            self.campaign_calendar.append("Planning")
+
+        # Add "Event" phase for the next 15 days
+        for _ in range(15):
+            self.campaign_calendar.append("Event")
+
+        # Add "Last-Minute" phase for the final 5 days
+        for _ in range(5):
+            self.campaign_calendar.append("Last-Minute")
+
+        # Total days = 30
 
     def start_campaign(self):
         # Initialize campaign with basic data
@@ -13,8 +39,34 @@ class Campaign:
         # Additional logic for starting the campaign (e.g., setting up the calendar)
 
     def advance_day(self):
-        # Logic to move the campaign forward by one day
-        pass
+        """
+        Advance the campaign by one day and trigger the relevant stage or event.
+        """
+        if self.current_day < len(self.campaign_calendar):
+            current_stage = self.campaign_calendar[self.current_day]
+            print(f"Day {self.current_day + 1}: {current_stage}")
+            self.trigger_event(current_stage)
+            self.current_day += 1
+        else:
+            print("Election day has arrived!")
+
+    def trigger_event(self, stage):
+        """
+        Trigger events based on the current stage of the campaign.
+        """
+        if stage == "Planning":
+            # Example: Setup initial campaign events
+            self.public_opinion += 1  # Increase public opinion slightly during planning
+            print("Planning events: Campaign strategy development.")
+        elif stage == "Event":
+            # Example: Major event, such as a rally
+            self.public_opinion += 5  # Events increase public opinion
+            self.funds -= 2000  # Events can cost money
+            print("Event: Major rally held!")
+        elif stage == "Last-Minute":
+            # Example: Last-minute campaigning
+            self.public_opinion += 10  # Big push towards election
+            print("Last-Minute Campaigning: Final push to sway voters.")
 
 
 class Constituency:
