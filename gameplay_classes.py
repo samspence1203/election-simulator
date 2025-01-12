@@ -79,12 +79,13 @@ class Campaign:
 
 
 class Constituency:
-    def __init__(self, name, party_controlled, winning_candidate):
+    def __init__(self, name, party_controlled, winning_candidate, majority, majority_percentage):
         self.name = name
         self.party_controlled = party_controlled  # Store the party ID
         self.winning_candidate = winning_candidate  # Candidate's name
-        self.majority = 0
-        self.majority_percentage = 0.0
+        self.majority = majority
+        self.majority_percentage = majority_percentage
+        self.rect = None  # This will be used for positioning the constituency on the map
 
     def update_majority(self, majority, majority_percentage):
         self.majority = majority
