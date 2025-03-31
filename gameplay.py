@@ -42,10 +42,10 @@ constituencies_data = fetch_constituencies(db_connection)
 
 # Create Constituency objects
 constituencies = []
-grid_width = 20  # Number of constituencies per row (adjust as needed)
-box_width = 20  # Adjusted width for each constituency box
-box_height = 10  # Adjusted height for each constituency box
-padding = 5  # Padding between boxes
+grid_width = 10  # Number of constituencies per row (adjust as needed)
+box_width = 15  # Adjusted width for each constituency box
+box_height = 6  # Adjusted height for each constituency box
+padding = 3  # Padding between boxes
 
 for i, data in enumerate(constituencies_data):
     name, party, winning_candidate = data
@@ -75,6 +75,9 @@ party_colors = {
     'Other': (169, 169, 169)       # Grey
 }
 
+# Define the variables for constituency data display
+clicked_constituency_data = ""
+
 # Main game loop
 while running:
     for event in pygame.event.get():
@@ -86,9 +89,11 @@ while running:
             # Check if a constituency is clicked
             for constituency in constituencies:
                 if constituency.rect.collidepoint(mouse_pos):
-                    print(f"Clicked on {constituency.name}")
-                    print(f"Party: {constituency.party_controlled}")
-                    print(f"Winning Candidate: {constituency.winning_candidate}")
+                    clicked_constituency_data = (
+                        f"Constituency: {constituency.name}\n"
+                        f"Party: {constituency.party_controlled}\n"
+                        f"Winning Candidate: {constituency.winning_candidate}"
+                    )
 
         # Space bar toggles the paused state
         if event.type == pygame.KEYDOWN:
@@ -112,19 +117,82 @@ while running:
 
     # Show "PAUSED" message if the game is paused
     if paused:
-        screen.blit(calendar_text, (screen.get_width() // 2 - calendar_text.get_width() // 2, 10))
+        screen.blit(calendar_text, (screen.get_width() // 2 - calendar_text.get_width() // 2, 70))
 
     # Draw basic campaign stats
     current_day_text = font.render(f"Day: {campaign.current_day + 1}", True, (0, 0, 0))
     current_stage_text = font.render(f"Stage: {campaign.campaign_calendar[campaign.current_day]}", True, (0, 0, 0))
-    screen.blit(current_day_text, (10, 10))
-    screen.blit(current_stage_text, (10, 40))
+    current_day_x = (screen_width - current_day_text.get_width()) // 2
+    current_stage_x = (screen_width - current_stage_text.get_width()) // 2
+    screen.blit(current_day_text, (current_day_x, 10))
+    screen.blit(current_stage_text, (current_stage_x, 40))
 
     # Display updated funds and public opinion from the statistics object
     funds_text = font.render(f"Funds: ${statistics.funds}", True, (0, 0, 0))
     opinion_text = font.render(f"Public Opinion: {statistics.public_opinion}%", True, (0, 0, 0))
-    screen.blit(funds_text, (10, 70))
-    screen.blit(opinion_text, (10, 100))
+    stats_x = screen_width - 200
+    screen.blit(funds_text, (stats_x, 70))
+    screen.blit(opinion_text, (stats_x, 100))
+
+    # Define the width and height of the decision box
+    decision_box_width = 300
+    decision_box_height = 400
+    button_width = 180
+    button_height = 40
+
+    # Define the decision text and button labels
+    decision_text = "Do you want to fund a rally?"
+    button_labels = ["Decision 1", "Decision 2", "Decision 3"]
+
+    # Calculate the position of the decision box (center of the screen)
+    decision_box_x = (screen_width - decision_box_width) // 2
+    decision_box_y = (screen_height - decision_box_height) // 2
+
+    # Create a simple background for the decision box (gray rectangle)
+    pygame.draw.rect(screen, (169, 169, 169), pygame.Rect(decision_box_x, decision_box_y, decision_box_width, decision_box_height))
+
+    # Render the decision text (centered in the decision box)
+    text = font.render(decision_text, True, (0, 0, 0))  # Black text
+    text_rect = text.get_rect(center=(decision_box_x + decision_box_width // 2, decision_box_y + 40))  # 40px offset for spacing
+    screen.blit(text, text_rect)
+
+    # Draw the buttons above each other (vertically aligned)
+    button_start_y = decision_box_y + 80  # Starting Y position for the first button
+
+    # Draw the buttons below the text
+    for i, label in enumerate(button_labels):
+        button_x = decision_box_x + (decision_box_width - button_width) // 2  # Center the button horizontally
+        button_y = button_start_y + (button_height + 10) * i  # Stack buttons vertically with 10px spacing
+        button_rect = pygame.Rect(button_x, button_y, button_width, button_height)
+
+        # Draw the button (light gray)
+        pygame.draw.rect(screen, (211, 211, 211), button_rect)
+
+        # Render the label on the button
+        button_label = font.render(label, True, (0, 0, 0))  # Black text
+        button_label_rect = button_label.get_rect(center=button_rect.center)
+        screen.blit(button_label, button_label_rect)
+
+    # Handle button clicks (for now, just print to the console)
+    for i, label in enumerate(button_labels):
+        if pygame.mouse.get_pressed()[0]:  # Check if left mouse button is clicked
+            mouse_x, mouse_y = pygame.mouse.get_pos()
+            if pygame.Rect(button_x, button_y, button_width, button_height).collidepoint(mouse_x, mouse_y):
+                print(f"{label} selected")
+
+    # Render the constituency data if a constituency is clicked
+    if clicked_constituency_data:
+        # Define the font and position for the constituency data
+        constituency_font = pygame.font.SysFont("Arial", 20)
+        lines = clicked_constituency_data.split("\n")  # Split the data into multiple lines
+
+        # Render each line of the constituency data
+        y_offset = decision_box_y + 250  # Starting Y position for the text
+        for line in lines:
+            text = constituency_font.render(line, True, (0, 0, 0))  # Black text
+            text_rect = text.get_rect(center=(decision_box_x + decision_box_width // 2, y_offset))
+            screen.blit(text, text_rect)
+            y_offset += 30  # Adjust the Y offset for each new line
 
     # Update the screen
     pygame.display.flip()
@@ -132,7 +200,7 @@ while running:
     # Only advance the day if not paused
     if not paused:
         campaign.advance_day()
-        pygame.time.wait(500)  # Adjust time delay to suit the pace of the game
+        pygame.time.wait(1000)  # Adjust time delay to suit the pace of the game
 
 # Quit Pygame
 pygame.quit()
